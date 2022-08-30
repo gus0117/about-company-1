@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu a{
+    color: rgb(117, 117, 117);
+}
+
+.menu a:hover {
+    color: black;
+}
+
+
+/* HOME */
+.home-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.btn-section {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.btn-home {
+    opacity: 0.7;
+    width: 150px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.btn-home:hover {
+    opacity: 1;
+}
+
+/* FEATURES */
+
+#features {
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(255, 249, 241);
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 4rem;
+    color: rgb(74, 74, 255);
+    opacity: 0.7;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.card {
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ABOUT */
+
+#about {
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-description {
+    font-size: 1.1rem;
+}
+
+.btn-about {
+    opacity: 0.7;
+    width: 150px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn-about:hover {
+    opacity: 1;
+}
+
+/* PRICING */
+
+.card-pricing {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.plan-list {
+    text-align: center;
+}
+
+.price {
+    color: blue;
+    opacity: 0.6;
+}
